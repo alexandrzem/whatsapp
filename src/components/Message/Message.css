@@ -1,0 +1,63 @@
+.message {
+  color: #000;
+  clear: both;
+  line-height: 18px;
+  font-size: 15px;
+  padding: 8px;
+  position: relative;
+  margin: 8px 45px;
+  max-width: 60%;
+  word-wrap: break-word;
+}
+
+.message::before {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  content: '';
+  display: block;
+  border: solid;
+  border-width: 0px 16px 16px 0px;
+  border-color: transparent;
+  border-right-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .message {
+    margin: 8px 0;
+    max-width: 80%;
+  }
+}
+
+.message.received {
+  background: #fff;
+  border-radius: 0px 5px 5px 5px;
+  float: left;
+}
+
+.message.sent::before {
+  left: auto;
+  right: -28px;
+  border-width: 0px 16px 16px 16px;
+  border-color: transparent;
+  border-left-color: #e1ffc7;
+}
+
+.message.sent {
+  background: #e1ffc7;
+  border-radius: 5px 0px 5px 5px;
+  float: right;
+}
+
+.metadata {
+  float: right;
+  padding: 0 0 0 7px;
+  position: relative;
+  bottom: -4px;
+}
+
+.metadata .date {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 11px;
+  display: inline-block;
+}

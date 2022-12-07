@@ -1,0 +1,44 @@
+.wrapper {
+  background: #fff;
+  padding: 0.75rem 0.75rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right {
+  width: 100%
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.icon {
+  width: 0.85rem;
+  margin: 0 0.25rem;
+}
+
+.lastMsg {
+  display: flex;
+  align-items: flex-end;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 13px;
+}
+
+.title {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.time {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+}

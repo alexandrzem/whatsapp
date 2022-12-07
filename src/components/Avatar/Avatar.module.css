@@ -1,0 +1,38 @@
+.avatar {
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 0 0.75rem 0 0;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #000;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.icon {
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.backIcon {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 3.5rem !important;
+  }
+
+  .icon {
+    margin: 0 7px;
+    width: 1.4rem;
+  }
+
+}

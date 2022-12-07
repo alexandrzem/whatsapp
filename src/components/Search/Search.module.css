@@ -1,0 +1,17 @@
+.search {
+  height: 2.75rem;
+  background: #f7f7f7;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem;
+}
+
+.input {
+  background-image: url(../../assets/search.svg);
+  background-repeat: no-repeat;
+  background-size: 1.5rem, 1.5rem;
+  background-position: 0.45rem 0.35rem;
+  padding-left: 4rem;
+  background-color: #f0f2f5;
+  height: 35px;
+}
