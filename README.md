@@ -1,3 +1,3 @@
 Fisrt run npm i 
 
-Then run mpn start
+Then run npm start
